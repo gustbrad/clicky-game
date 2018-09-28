@@ -2,7 +2,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    background-color: black;
+    background-color: rgb(185, 94, 8);
     min-height: 65px;
     width: 100%;
     text-align: center;
@@ -21,7 +21,7 @@
 
 .nav-pills a:hover {
     color: #fff;
-    background-color: #5133a4 !important;
+    background-color: #fff !important;
 }
 
 .desc-normal {
@@ -34,5 +34,10 @@
 
 .desc-incorrect {
     color: #f00;
+}
+
+#score > li:last-child
+{
+    float:right;
 }
 

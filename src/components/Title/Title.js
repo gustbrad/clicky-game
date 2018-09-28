@@ -3,8 +3,8 @@ import "./Title.css";
 
 const Title = props => (
     <div className="titlebox">
-        <h1>Book Clicky Game!</h1>
-        <p>Click on an image to earn points, but don't click an image any more than one time!</p>
+        <h1>Memory Click Game!</h1>
+        <p>Click on a book and earn a point. Click the same book more than once, you lose and start all over.</p>
     </div>
 );
 

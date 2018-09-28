@@ -40,7 +40,7 @@ class App extends Component {
             });
         }
         else {
-            //Picked an undelected book
+            //Picked an unselected book
             const newBooks = this.state.unselectedBooks.filter(item => item.cover !== cover);
             
             this.setState({ 

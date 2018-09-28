@@ -3,9 +3,10 @@ import "./Navpills.css";
 
 const Navpills = props => (
     <div>
-        <ul className="nav nav-pills nav-justified">
-            <li><a href="/">Book Clicky Game</a></li>
-            <li
+        <ul id="score" className="nav nav-pills nav-justified">
+            <li><a href="/" style={{color: "black"}}>Memory Click Game</a> <br></br></li>
+            
+            <li 
                 className={props.message.indexOf('incorrectly') !== -1 ? 
                     "desc-incorrect" : 
                     props.message.indexOf('correctly') !== -1 ?
@@ -14,7 +15,7 @@ const Navpills = props => (
             >
                 {props.message}
             </li>
-            <li>Score: <span style={{color: "yellow"}}>{props.curScore}</span> | Top Score: {props.topScore}</li>
+            <li style={{color: "black"}}>Score: {props.curScore} | Top Score: {props.topScore}</li>
         </ul>
     </div>
 );
